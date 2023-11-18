@@ -1,0 +1,250 @@
+body{
+    /* background-image: radial-gradient(lightblue 40%,white 10%);
+     */
+     background-color: rgb(71, 68, 68);
+}
+#a{
+    border: 2px solid gold;
+    height: 400px;
+    width: 400px;
+    background-image: radial-gradient(grey,black);
+    position: absolute;
+    top: 100px;
+    left: 430px;
+    border-radius: 40px;
+    box-shadow: 17px 17px 26px 5px;
+}
+#a1{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 30px;
+    padding: 80px;
+    color: goldenrod;
+}
+button{
+    border-radius: 5px;
+    padding: 8px;
+    position: absolute;
+    left: 150px;
+    top: 230px;
+    height: 40px;
+    width: 80px;
+    background-color: lightslategray;
+    cursor: grab;
+}
+#b{
+    position: relative;
+    left: 15px;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid;
+    
+}
+#b:focus{
+    border: none;
+
+
+}
+#l{
+    position: absolute;
+    top: 50px;
+    left: 560px;
+    color: greenyellow;
+    visibility:hidden;
+    /* display: none; */
+}
+#l1{
+    position: absolute;
+    top: 50px;
+    left: 560px;
+    color: lightcoral;
+    visibility:hidden;
+
+}
+#l2{
+    position: absolute;
+    top: 50px;
+    left: 520px;
+    color: rgb(255, 255, 116);
+    visibility: visible;
+
+}
+#c{
+    height: 20px;
+
+}
+button:hover{
+    background-color: goldenrod;
+}
+button:active{
+    background-color: lightgoldenrodyellow;
+}
+.xyz:hover{
+    /* animation: move 4s ; */
+    /* transition: translateX(-100px); */
+    transform: translate(-100%);
+    transition: 2s all ;
+}
+@media screen and (min-width:320px) and (max-width:426px) {
+    #a{
+        border: 2px solid gold;
+        height: 400px;
+        width: 400px;
+        background-image: radial-gradient(grey,black);
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        border-radius: 40px;
+        box-shadow: 17px 17px 26px 5px;
+    }
+    #l{
+        position: absolute;
+        top: 130px;
+        left: 280px;
+        color: greenyellow;
+        visibility:hidden;
+        width: 100%;
+        /* display: none; */
+    }
+    #l1{
+        position: absolute;
+        top: 130px;
+        left: 290px;
+        color: lightcoral;
+        visibility:hidden;
+        width: 100%;
+    
+    }
+    #l2{
+        position: absolute;
+        top: 130px;
+        left: 290px;
+        color: rgb(255, 255, 116);
+        visibility: visible;
+        width: 100%;
+    
+    }
+
+    
+}
+@media screen and (min-width:427px) and (max-width:769px){
+    #a{
+        border: 2px solid gold;
+        height: 400px;
+        width: 400px;
+        background-image: radial-gradient(grey,black);
+        position: absolute;
+        top: 180px;
+        left: 180px;
+        border-radius: 40px;
+        box-shadow: 17px 17px 26px 5px;
+    }
+    #l2{
+        position: absolute;
+        top: 130px;
+        left: 270px;
+        color: rgb(255, 255, 116);
+        visibility: visible;
+        width: 30%;
+    
+    }
+    #l1{
+        position: absolute;
+        top: 130px;
+        left: 270px;
+        color: lightcoral;
+        visibility:hidden;
+        width: 30%;
+    
+    }
+    #l{
+        position: absolute;
+        top: 130px;
+        left: 310px;
+        color: greenyellow;
+        visibility:hidden;
+        width: 30%;
+        /* display: none; */
+    }
+}
+@media screen and (min-width:770px) and (max-width:1025px){
+    #a{
+        border: 2px solid gold;
+        height: 400px;
+        width: 400px;
+        background-image: radial-gradient(grey,black);
+        position: absolute;
+        top: 270px;
+        left: 300px;
+        border-radius: 40px;
+        box-shadow: 17px 17px 26px 5px;
+    }
+    #l{
+        position: absolute;
+        top: 210px;
+        left: 420px;
+        color: greenyellow;
+        visibility:hidden;
+        width: 30%;
+        /* display: none; */
+    }
+    #l1{
+        position: absolute;
+        top: 210px;
+        left: 380px;
+        color: lightcoral;
+        visibility:hidden;
+        width: 30%;
+    
+    }
+    #l2{
+        position: absolute;
+        top: 210px;
+        left: 380px;
+        color: rgb(255, 255, 116);
+        visibility: visible;
+        width: 30%;
+    
+    }
+}
+@media screen and (min-width:1440px) {
+    #a{
+        border: 2px solid gold;
+        height: 400px;
+        width: 400px;
+        background-image: radial-gradient(grey,black);
+        position: absolute;
+        top: 270px;
+        left: 480px;
+        border-radius: 40px;
+        box-shadow: 17px 17px 26px 5px;
+    }
+    #l{
+        position: absolute;
+        top: 210px;
+        left: 500px;
+        color: greenyellow;
+        visibility:hidden;
+        width: 30%;
+        /* display: none; */
+    }
+    #l2{
+        position: absolute;
+        top: 210px;
+        left: 500px;
+        color: rgb(255, 255, 116);
+        visibility: visible;
+        width: 30%;
+    
+    }
+    #l1{
+        position: absolute;
+        top: 210px;
+        left: 500px;
+        color: lightcoral;
+        visibility:hidden;
+        width: 30%;
+    
+    }
+}
+
